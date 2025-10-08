@@ -2,16 +2,16 @@
 
 **Lab 1:**
 
-  Windows 10 Workstation
+  Windows 10 Workstation <br>
     - Updated Windows 10 operating system.<br>
     - Added a new administrative account for the team.<br>
     - Set static IP: 192.168.1.122 with subnet mask 255.255.255.128, gateway 192.168.1.121, and DNS 192.168.1.121.<br>
 
-  OpenWrt Router
+  OpenWrt Router <br>
     - Set initial password for router access.<br>
     - Added DMZ port to DNS server: Enabled under Network → DHCP and DNS → Devices & Ports → Listen Interfaces → DMZ.<br>
 
-  Windows Server 2019
+  Windows Server 2019 <br>
     - Verified administrative access using provided credentials.<br>
     - Forced password requirement for Administrator account.<br>
     - Set static IP: 192.168.1.121 with subnet mask 255.255.255.128, gateway 192.168.1.1, and DNS 192.168.1.1.<br>
@@ -22,7 +22,7 @@
     - Verified login to domain using domain credentials.<br>
     - Applied all available Windows Server updates.<br>
 
-  Ubuntu Server
+  Ubuntu Server <br>
     - Created new user accounts with `sudo` privileges.<br>
     - Updated system packages (without performing a dist-upgrade).<br>
     - Installed Apache2 and PHP.<br>
